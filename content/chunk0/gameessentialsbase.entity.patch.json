@@ -31,7 +31,10 @@
 				{
 					"AddProperty": [
 						"m_bIsVisible",
-						{ "type": "bool", "value": true }
+						{
+							"type": "bool",
+							"value": true
+						}
 					]
 				}
 			]
@@ -45,11 +48,16 @@
 					"factory": "[modules:/zentity.class].pc_entitytype",
 					"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 					"properties": {
-						"m_bIsVisible": { "type": "bool", "value": true }
+						"m_bIsVisible": {
+							"type": "bool",
+							"value": true
+						}
 					},
 					"inputCopying": {
 						"SetVisible": {
-							"SetVisible": ["cafed233e13cb75a"]
+							"SetVisible": [
+								"cafed233e13cb75a"
+							]
 						}
 					},
 					"propertyAliases": {
@@ -63,11 +71,15 @@
 					"exposedEntities": {
 						"ViewSpaceElements": {
 							"isArray": false,
-							"refersTo": ["cafe2c6216f1ecb3"]
+							"refersTo": [
+								"cafe2c6216f1ecb3"
+							]
 						},
 						"MicroRaceStateText": {
 							"isArray": false,
-							"refersTo": ["cafe4951e03edffe"]
+							"refersTo": [
+								"cafe4951e03edffe"
+							]
 						}
 					}
 				}
@@ -92,21 +104,44 @@
 						},
 						"m_vPositionOffset": {
 							"type": "SVector3",
-							"value": { "x": 0.0, "y": 0.0, "z": 0.0 }
+							"value": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							}
 						},
 						"m_vRotation": {
 							"type": "SVector3",
-							"value": { "x": 0.0, "y": 0.0, "z": 0.0 }
+							"value": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							}
 						},
-						"FontSize": { "type": "float32", "value": 40.0 },
-						"WrapText": { "type": "bool", "value": false },
+						"FontSize": {
+							"type": "float32",
+							"value": 40.0
+						},
+						"WrapText": {
+							"type": "bool",
+							"value": false
+						},
 						"m_pDataProvider": {
 							"type": "SEntityTemplateReference",
 							"value": null
 						},
-						"Alpha": { "type": "float32", "value": 1.0 },
-						"m_bIsVisible": { "type": "bool", "value": true },
-						"Font": { "type": "ZString", "value": "$bold" },
+						"Alpha": {
+							"type": "float32",
+							"value": 1.0
+						},
+						"m_bIsVisible": {
+							"type": "bool",
+							"value": true
+						},
+						"Font": {
+							"type": "ZString",
+							"value": "$bold"
+						},
 						"TextAlignment": {
 							"type": "ZString",
 							"value": "left"
@@ -136,10 +171,17 @@
 					"factory": "[assembly:/templates/ui/controls/basiccontrols.template?/uicontainer.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/templates/ui/controls/basiccontrols.template?/uicontainer.entitytemplate].pc_entityblueprint",
 					"properties": {
-						"m_bIsVisible": { "type": "bool", "value": false },
+						"m_bIsVisible": {
+							"type": "bool",
+							"value": false
+						},
 						"m_vPositionOffset": {
 							"type": "SVector3",
-							"value": { "x": 20.0, "y": 20.0, "z": 0.0 }
+							"value": {
+								"x": 20.0,
+								"y": 20.0,
+								"z": 0.0
+							}
 						},
 						"m_eAlignment": {
 							"type": "ZUIControlEntity.EAlignment",
@@ -147,11 +189,17 @@
 						},
 						"m_vLayoutSize": {
 							"type": "SVector2",
-							"value": { "x": 800.0, "y": 400.0 }
+							"value": {
+								"x": 800.0,
+								"y": 400.0
+							}
 						},
 						"m_vScaleManual": {
 							"type": "SVector2",
-							"value": { "x": 1.0, "y": 1.0 }
+							"value": {
+								"x": 1.0,
+								"y": 1.0
+							}
 						},
 						"m_eScaleMode": {
 							"type": "ZUIControlEntity.EScaleMode",
@@ -159,7 +207,9 @@
 						},
 						"m_aChildren": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe4951e03edffe"],
+							"value": [
+								"cafe4951e03edffe"
+							],
 							"postInit": true
 						},
 						"m_bForwardDataToChildren": {
