@@ -6,7 +6,7 @@
 			"AddEntity": [
 				"cafe0a151a9a8e50",
 				{
-					"parent": "b5d803bb26ee7ff2",
+					"parent": "2e90eb768c63a946",
 					"name": "RaceStateHud",
 					"factory": "[modules:/zentity.class].pc_entitytype",
 					"blueprint": "[modules:/zentity.class].pc_entityblueprint",
@@ -153,8 +153,7 @@
 							"type": "SEntityTemplateReference",
 							"value": "cafee6fa2129e3a4",
 							"postInit": true
-						},
-						"m_bIsVisible": { "type": "bool", "value": true }
+						}
 					}
 				}
 			]
