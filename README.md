@@ -1,4 +1,4 @@
-# Miami Race Info HUD
+# Miami Race Extra HUD
 
 Checking out how the Miami race is going in real-time
 
@@ -6,4 +6,4 @@ Checking out how the Miami race is going in real-time
 
 ---
 
-`meimei.pinstestmod` v1.0.5, by Mei-Mei. This README was automatically generated from the mod's manifest.
+`meimei.pinstestmod` v1.0.6, by Mei-Mei. This README was automatically generated from the mod's manifest.
