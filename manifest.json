@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"id": "meimei.pinstestmod",
 	"name": "Miami Race Info HUD",
 	"description": "Checking out how the Miami race is going in real-time",
