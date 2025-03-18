@@ -4,11 +4,34 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
+				"108d0eeb039d7118",
+				{
+					"AddEventConnection": [
+						"RaceStateViewVisible",
+						"SetVisible",
+						"cafe7b9ec819e10f"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2e5ed1bedcef64fd",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bIsVisible",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"1540a46df9c4cdb9",
 				{
 					"AddProperty": [
 						"m_bIsVisible",
-						{ "type": "bool", "value": false }
+						{ "type": "bool", "value": true }
 					]
 				}
 			]
@@ -95,6 +118,10 @@
 						"m_eScaleMode": {
 							"type": "ZUIControlEntity.EScaleMode",
 							"value": "ResolutionScaleAspect"
+						},
+						"CheckForGlobalFont": {
+							"type": "bool",
+							"value": false
 						}
 					}
 				}
@@ -134,6 +161,10 @@
 							"type": "TArray<SEntityTemplateReference>",
 							"value": ["cafe4951e03edffe"],
 							"postInit": true
+						},
+						"m_bForwardDataToChildren": {
+							"type": "bool",
+							"value": false
 						}
 					},
 					"platformSpecificProperties": {
