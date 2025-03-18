@@ -1,0 +1,160 @@
+{
+	"tempHash": "0093B7139387B988",
+	"tbluHash": "004D99E9BEC3EA51",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe7b9ec819e10f",
+				{
+					"parent": "659dbc73b15a8f82",
+					"name": "RaceStateHud",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+					"inputCopying": {
+						"SetVisible": {
+							"SetVisible": ["cafed233e13cb75a"]
+						}
+					},
+					"propertyAliases": {
+						"m_bIsVisible": [
+							{
+								"originalProperty": "m_bIsVisible",
+								"originalEntity": "cafe2c6216f1ecb3"
+							}
+						]
+					},
+					"exposedEntities": {
+						"ViewSpaceElements": {
+							"isArray": false,
+							"refersTo": ["cafe2c6216f1ecb3"]
+						},
+						"MicroProfilePerfText": {
+							"isArray": false,
+							"refersTo": ["cafe4951e03edffe"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4951e03edffe",
+				{
+					"parent": "cafe7b9ec819e10f",
+					"name": "MicroRaceStateText",
+					"factory": "[assembly:/templates/ui/controls/basiccontrols.template?/uitextbox.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/ui/controls/basiccontrols.template?/uitextbox.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"Text": {
+							"type": "ZString",
+							"value": "This is could be an extra HUD"
+						},
+						"TextColor": {
+							"type": "ZString",
+							"value": "ffffff"
+						},
+						"m_vPositionOffset": {
+							"type": "SVector3",
+							"value": { "x": 0.0, "y": 0.0, "z": 0.0 }
+						},
+						"m_vRotation": {
+							"type": "SVector3",
+							"value": { "x": 0.0, "y": 0.0, "z": 0.0 }
+						},
+						"FontSize": { "type": "float32", "value": 40.0 },
+						"WrapText": { "type": "bool", "value": false },
+						"m_pDataProvider": {
+							"type": "SEntityTemplateReference",
+							"value": null
+						},
+						"Alpha": { "type": "float32", "value": 1.0 },
+						"m_bIsVisible": { "type": "bool", "value": true },
+						"Font": { "type": "ZString", "value": "$bold" },
+						"TextAlignment": {
+							"type": "ZString",
+							"value": "left"
+						},
+						"m_eAlignment": {
+							"type": "ZUIControlEntity.EAlignment",
+							"value": "StretchCenter"
+						},
+						"m_eScaleMode": {
+							"type": "ZUIControlEntity.EScaleMode",
+							"value": "ResolutionScaleAspect"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2c6216f1ecb3",
+				{
+					"parent": "cafe7b9ec819e10f",
+					"name": "MicroRaceStateHud",
+					"factory": "[assembly:/templates/ui/controls/basiccontrols.template?/uicontainer.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/ui/controls/basiccontrols.template?/uicontainer.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bIsVisible": { "type": "bool", "value": false },
+						"m_vPositionOffset": {
+							"type": "SVector3",
+							"value": { "x": 20.0, "y": 20.0, "z": 0.0 }
+						},
+						"m_eAlignment": {
+							"type": "ZUIControlEntity.EAlignment",
+							"value": "TopLeft"
+						},
+						"m_vLayoutSize": {
+							"type": "SVector2",
+							"value": { "x": 800.0, "y": 400.0 }
+						},
+						"m_vScaleManual": {
+							"type": "SVector2",
+							"value": { "x": 1.0, "y": 1.0 }
+						},
+						"m_eScaleMode": {
+							"type": "ZUIControlEntity.EScaleMode",
+							"value": "ResolutionScaleAspect"
+						},
+						"m_aChildren": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe4951e03edffe"],
+							"postInit": true
+						}
+					},
+					"platformSpecificProperties": {
+						"VR": {
+							"m_vPositionOffset": {
+								"type": "SVector3",
+								"value": {
+									"x": 320.0,
+									"y": 400.0,
+									"z": 0.0
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed233e13cb75a",
+				{
+					"parent": "cafe7b9ec819e10f",
+					"name": "VisibilityRaceStateHud",
+					"factory": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pTargetControl": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe2c6216f1ecb3",
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
