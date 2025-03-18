@@ -6,11 +6,7 @@
 			"SubEntityOperation": [
 				"108d0eeb039d7118",
 				{
-					"AddEventConnection": [
-						"RaceStateViewVisible",
-						"SetVisible",
-						"cafe7b9ec819e10f"
-					]
+					"AddEventConnection": ["RaceStateViewVisible", "SetVisible", "cafe7b9ec819e10f"]
 				}
 			]
 		},
@@ -55,9 +51,7 @@
 					},
 					"inputCopying": {
 						"SetVisible": {
-							"SetVisible": [
-								"cafed233e13cb75a"
-							]
+							"SetVisible": ["cafed233e13cb75a"]
 						}
 					},
 					"propertyAliases": {
@@ -71,15 +65,11 @@
 					"exposedEntities": {
 						"ViewSpaceElements": {
 							"isArray": false,
-							"refersTo": [
-								"cafe2c6216f1ecb3"
-							]
+							"refersTo": ["cafe2c6216f1ecb3"]
 						},
 						"MicroRaceStateText": {
 							"isArray": false,
-							"refersTo": [
-								"cafe4951e03edffe"
-							]
+							"refersTo": ["cafe4951e03edffe"]
 						}
 					}
 				}
@@ -207,9 +197,7 @@
 						},
 						"m_aChildren": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"cafe4951e03edffe"
-							],
+							"value": ["cafe4951e03edffe"],
 							"postInit": true
 						},
 						"m_bForwardDataToChildren": {
