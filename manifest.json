@@ -1,15 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"id": "meimei.pinstestmod",
 	"name": "Miami Race Info HUD",
 	"description": "Checking out how the Miami race is going in real-time",
-	"authors": [
-		"Mei-Mei"
-	],
-	"contentFolders": [
-		"content"
-	],
+	"authors": ["Mei-Mei"],
+	"contentFolders": ["content"],
 	"frameworkVersion": "2.33.23",
 	"updateCheck": "https://github.com/protonalialol/hitman-pins-test/releases/latest/download/updates.json"
 }
