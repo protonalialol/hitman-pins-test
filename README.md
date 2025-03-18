@@ -6,4 +6,4 @@ Checking out events
 
 ---
 
-`meimei.pinstestmod` v1.0.0, by Mei-Mei. This README was automatically generated from the mod's manifest.
+`meimei.pinstestmod` v1.0.1, by Mei-Mei. This README was automatically generated from the mod's manifest.
