@@ -18,9 +18,7 @@
 					},
 					"inputCopying": {
 						"SetVisible": {
-							"SetVisible": [
-								"cafe19a7a6c0ed10"
-							]
+							"SetVisible": ["cafe19a7a6c0ed10"]
 						}
 					},
 					"propertyAliases": {
@@ -34,15 +32,11 @@
 					"exposedEntities": {
 						"ViewSpaceElements": {
 							"isArray": false,
-							"refersTo": [
-								"cafee6fa2129e3a4"
-							]
+							"refersTo": ["cafee6fa2129e3a4"]
 						},
 						"MicroRaceStateText": {
 							"isArray": false,
-							"refersTo": [
-								"cafec88e8e6e5f98"
-							]
+							"refersTo": ["cafec88e8e6e5f98"]
 						}
 					}
 				}
@@ -93,9 +87,7 @@
 						},
 						"m_aChildren": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"cafec88e8e6e5f98"
-							],
+							"value": ["cafec88e8e6e5f98"],
 							"postInit": true
 						}
 					},
