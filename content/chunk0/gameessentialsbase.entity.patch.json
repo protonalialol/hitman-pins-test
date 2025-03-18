@@ -119,9 +119,6 @@
 							"SetVisible": [
 								"cafed233e13cb75a"
 							]
-							"SetVisible": [
-								"cafed233e13cb75a"
-							]
 						}
 					},
 					"propertyAliases": {
@@ -138,15 +135,9 @@
 							"refersTo": [
 								"cafe2c6216f1ecb3"
 							]
-							"refersTo": [
-								"cafe2c6216f1ecb3"
-							]
 						},
 						"MicroRaceStateText": {
 							"isArray": false,
-							"refersTo": [
-								"cafe4951e03edffe"
-							]
 							"refersTo": [
 								"cafe4951e03edffe"
 							]
@@ -277,9 +268,6 @@
 						},
 						"m_aChildren": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"cafe4951e03edffe"
-							],
 							"value": [
 								"cafe4951e03edffe"
 							],
