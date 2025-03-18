@@ -6,4 +6,4 @@ Checking out how the Miami race is going in real-time
 
 ---
 
-`meimei.pinstestmod` v1.0.7, by Mei-Mei. This README was automatically generated from the mod's manifest.
+`meimei.pinstestmod` v1.0.8, by Mei-Mei. This README was automatically generated from the mod's manifest.
