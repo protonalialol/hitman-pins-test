@@ -1,14 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"id": "meimei.pinstestmod",
 	"name": "Pins Testing Mod",
 	"description": "Checking out events",
-	"authors": [
-		"Mei-Mei"
-	],
-	"contentFolders": [
-		"content"
-	],
-	"frameworkVersion": "2.25.1"
+	"authors": ["Mei-Mei"],
+	"contentFolders": ["content"],
+	"frameworkVersion": "2.33.23",
+	"updateCheck": "https://github.com/protonalialol/hitman-pins-test/releases/latest/download/updates.json"
 }

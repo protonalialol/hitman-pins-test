@@ -1,62 +1,59 @@
 {
-    "parent": "1540a46df9c4cdb9",
-    "name": "MicroProfilePerfHud",
-    "factory": "[assembly:/templates/ui/controls/basiccontrols.template?/uicontainer.entitytemplate].pc_entitytype",
-    "blueprint": "[assembly:/templates/ui/controls/basiccontrols.template?/uicontainer.entitytemplate].pc_entityblueprint",
-    "properties": {
-        "m_bIsVisible": {
-            "type": "bool",
-            "value": true
-        },
-        "m_vPositionOffset": {
-            "type": "SVector3",
-            "value": {
-                "x": 20.0,
-                "y": 20.0,
-                "z": 0.0
-            }
-        },
-        "m_eAlignment": {
-            "type": "ZUIControlEntity.EAlignment",
-            "value": "CenterLeft"
-        },
-        "m_vLayoutSize": {
-            "type": "SVector2",
-            "value": {
-                "x": 800.0,
-                "y": 400.0
-            }
-        },
-        "m_vScaleManual": {
-            "type": "SVector2",
-            "value": {
-                "x": 1.0,
-                "y": 1.0
-            }
-        },
-        "m_eScaleMode": {
-            "type": "ZUIControlEntity.EScaleMode",
-            "value": "ResolutionScaleAspect"
-        },
-        "m_aChildren": {
-            "type": "TArray<SEntityTemplateReference>",
-            "value": [
-                "2e5ed1bedcef64fd",
-                "0a5f176ffaacd1c6"
-            ],
-            "postInit": true
-        }
-    },
-    "platformSpecificProperties": {
-        "VR": {
-            "m_vPositionOffset": {
-                "type": "SVector3",
-                "value": {
-                    "x": 320.0,
-                    "y": 400.0,
-                    "z": 0.0
-                }
-            }
-        }
-    }
+	"parent": "1540a46df9c4cdb9",
+	"name": "MicroProfilePerfHud",
+	"factory": "[assembly:/templates/ui/controls/basiccontrols.template?/uicontainer.entitytemplate].pc_entitytype",
+	"blueprint": "[assembly:/templates/ui/controls/basiccontrols.template?/uicontainer.entitytemplate].pc_entityblueprint",
+	"properties": {
+		"m_bIsVisible": {
+			"type": "bool",
+			"value": true
+		},
+		"m_vPositionOffset": {
+			"type": "SVector3",
+			"value": {
+				"x": 20.0,
+				"y": 20.0,
+				"z": 0.0
+			}
+		},
+		"m_eAlignment": {
+			"type": "ZUIControlEntity.EAlignment",
+			"value": "CenterLeft"
+		},
+		"m_vLayoutSize": {
+			"type": "SVector2",
+			"value": {
+				"x": 800.0,
+				"y": 400.0
+			}
+		},
+		"m_vScaleManual": {
+			"type": "SVector2",
+			"value": {
+				"x": 1.0,
+				"y": 1.0
+			}
+		},
+		"m_eScaleMode": {
+			"type": "ZUIControlEntity.EScaleMode",
+			"value": "ResolutionScaleAspect"
+		},
+		"m_aChildren": {
+			"type": "TArray<SEntityTemplateReference>",
+			"value": ["2e5ed1bedcef64fd", "0a5f176ffaacd1c6"],
+			"postInit": true
+		}
+	},
+	"platformSpecificProperties": {
+		"VR": {
+			"m_vPositionOffset": {
+				"type": "SVector3",
+				"value": {
+					"x": 320.0,
+					"y": 400.0,
+					"z": 0.0
+				}
+			}
+		}
+	}
 }
