@@ -1,0 +1,68 @@
+{
+    "parent": "1540a46df9c4cdb9",
+    "name": "MicroProfilePerfText",
+    "factory": "[assembly:/templates/ui/controls/basiccontrols.template?/uitextbox.entitytemplate].pc_entitytype",
+    "blueprint": "[assembly:/templates/ui/controls/basiccontrols.template?/uitextbox.entitytemplate].pc_entityblueprint",
+    "properties": {
+        "Text": {
+            "type": "ZString",
+            "value": "This is  a test"
+        },
+        "TextColor": {
+            "type": "ZString",
+            "value": "ffffff"
+        },
+        "m_vPositionOffset": {
+            "type": "SVector3",
+            "value": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "m_vRotation": {
+            "type": "SVector3",
+            "value": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "FontSize": {
+            "type": "float32",
+            "value": 40.0
+        },
+        "WrapText": {
+            "type": "bool",
+            "value": false
+        },
+        "m_pDataProvider": {
+            "type": "SEntityTemplateReference",
+            "value": null
+        },
+        "Alpha": {
+            "type": "float32",
+            "value": 1.0
+        },
+        "m_bIsVisible": {
+            "type": "bool",
+            "value": true
+        },
+        "Font": {
+            "type": "ZString",
+            "value": "$bold"
+        },
+        "TextAlignment": {
+            "type": "ZString",
+            "value": "left"
+        },
+        "m_eAlignment": {
+            "type": "ZUIControlEntity.EAlignment",
+            "value": "StretchCenter"
+        },
+        "m_eScaleMode": {
+            "type": "ZUIControlEntity.EScaleMode",
+            "value": "ResolutionScaleAspect"
+        }
+    }
+}

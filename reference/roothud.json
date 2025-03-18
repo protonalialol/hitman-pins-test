@@ -1,0 +1,47 @@
+{
+    "parent": "659dbc73b15a8f82",
+    "name": "PerfDebugHud",
+    "factory": "[modules:/zentity.class].pc_entitytype",
+    "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+    "properties": {
+        "m_bIsVisible": {
+            "type": "bool",
+            "value": true
+        }
+    },
+    "inputCopying": {
+        "SetVisible": {
+            "SetVisible": [
+                "93b8530a031b2c8b"
+            ]
+        }
+    },
+    "propertyAliases": {
+        "m_bIsVisible": [
+            {
+                "originalProperty": "m_bIsVisible",
+                "originalEntity": "ffa410d42604858e"
+            }
+        ]
+    },
+    "exposedEntities": {
+        "ViewSpaceElements": {
+            "isArray": false,
+            "refersTo": [
+                "ffa410d42604858e"
+            ]
+        },
+        "MicroProfilePerfText": {
+            "isArray": false,
+            "refersTo": [
+                "0a5f176ffaacd1c6"
+            ]
+        },
+        "MicroProfilePerfTextDropShadow": {
+            "isArray": false,
+            "refersTo": [
+                "2e5ed1bedcef64fd"
+            ]
+        }
+    }
+}
